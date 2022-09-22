@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Flipkart_Clone_Styles.css">
+    <script src="https://kit.fontawesome.com/534bf90a70.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- header starts -->
+    <div id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-1 left">
+                    <div class="row">
+                        <div class="logo left">
+                            <div class="flipkart-logo">
+                                <a href="#">
+                                    <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png" alt="logo">
+                                </a>
+                            </div>
+                            <div class="flipkart-plus-logo">
+                                <a href="#">
+                                    <span id="explore">Explore</span>
+                                    <span id="plus">Plus</span>
+                                </a>
+                                <img id="logo-img" src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png" alt="logo">
+                            </div>
+                        </div>
+                        <div class="search left">
+                            <form action="#">
+                                <input type="text" placeholder="Search for products, brands and more">
+                                <button type="submit">
+                                    <i class="fa-solid fa-search"></i>
+                                </button>
+                            </form>
+                            <div id="magnifying-glass">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 left">
+                    <ul>
+                        <li>
+                            <span>Login</span>
+                            <div class="dropdown">
+                                <!-- ::before -->
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <div class="row">
+                                                <div class="left">New Customer?</div>
+                                                <div class="right blue">Sign Up</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-circle-user"></i>
+                                            <span>My Profile</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <svg class="flip-plus" width="16" height="16" class="" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><g id="Desktop_VIP" stroke="none" stroke-width="1" fill-rule="evenodd"><g transform="translate(7.873 .143)"><path d="M6.484 4.94s2.476 1.227 3.698 1.748c1.188.506 1.323 2.4.016 3.04-1.307.64-1.67.744-1.67.744s.208-.53.178-1.044c-.085-.914-2.787-1.656-4.576-2.094 0 0-1.375-4.311-1.995-5.512C1.509.612.242.11.242.11l2.995.04s1.03-.05 1.488 1.055c.456 1.106 1.76 3.734 1.76 3.734" fill="#2873F0" mask="url(#b)"></path></g><g transform="translate(8.635 8.27)"><path d="M5.547 6.265S4.334 8.713 3.8 9.965c-.507 1.187-2.44 1.322-3.079.015C.081 8.673.015 8.44.015 8.44s.387.076 1 .048c.915-.084 1.7-2.786 2.138-4.575 0 0 4.311-1.377 5.513-1.997 1.21-.624 1.71-1.892 1.71-1.892l-.04 3.44s.05.587-1.055 1.044c-1.105.455-3.734 1.757-3.734 1.757" fill="#2873F0" mask="url(#d)"></path></g><g transform="translate(0 8.778)"><path d="M4.655 5.573S2.193 4.353.956 3.826C-.232 3.32-.367 1.423.94.786 2.248.145 2.774.026 2.774.026s-.34.545-.255 1.157C2.606 2.1 5.22 2.74 7.008 3.179c0 0 1.427 4.287 1.997 5.513.695 1.493 1.848 1.72 1.848 1.72l-3.396-.05s-.585.05-1.042-1.055c-.458-1.106-1.76-3.734-1.76-3.734" fill="#2873F0" mask="url(#f)"></path></g><g transform="translate(0 .143)"><path d="M4.857 4.754s1.219-2.46 1.747-3.699c.506-1.188 2.4-1.321 3.04-.016.64 1.308.701 1.544.701 1.544s-.482.007-.993.035c-.916.087-1.663 2.702-2.101 4.49 0 0-4.296 1.405-5.513 1.996C.066 9.916 0 10.957 0 10.957l.068-3.4s-.05-.586 1.055-1.043c1.105-.457 3.734-1.76 3.734-1.76" fill="#2873F0" mask="url(#h)"></path></g></g></svg>
+                                            <span>Flipkart Plus Zone</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" class="" viewBox="0 0 16 12"><g fill="none" fill-rule="evenodd"><path fill="#2874F1" d="M6.038 11.682h8.407c.565 0 1.018-.38 1.13-.855V.847H.426v9.98c0 .475.452.855 1.017.855h2.232v-2.98H1.94L4.776 6l2.996 2.703H6.038v2.98z"></path></g></svg>
+                                            <span>Orders</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa-solid fa-heart"></i>
+                                            <span>Wishlist</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="12" class="" viewBox="0 0 16 12"><g fill="none" fill-rule="evenodd"><path fill="#2874F1" d="M6.038 11.682h8.407c.565 0 1.018-.38 1.13-.855V.847H.426v9.98c0 .475.452.855 1.017.855h2.232v-2.98H1.94L4.776 6l2.996 2.703H6.038v2.98z"></path></g></svg>
+                                            <span>Rewards</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <svg width="16" height="16" class="" viewBox="0 0 23 22" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" transform="translate(-9.694 -9)"><ellipse cx="20.557" cy="20" rx="20.557" ry="20"></ellipse><path d="M7 6h28v28H7z"></path><path fill="#2874F0" fill-rule="nonzero" d="M31.5 27v1.167a2.34 2.34 0 0 1-2.333 2.333H12.833a2.333 2.333 0 0 1-2.333-2.333V11.833A2.333 2.333 0 0 1 12.833 9.5h16.334a2.34 2.34 0 0 1 2.333 2.333V13H21a2.333 2.333 0 0 0-2.333 2.333v9.334A2.333 2.333 0 0 0 21 27h10.5zM21 24.667h11.667v-9.334H21v9.334zm4.667-2.917c-.97 0-1.75-.782-1.75-1.75s.78-1.75 1.75-1.75c.968 0 1.75.782 1.75 1.75s-.782 1.75-1.75 1.75z"></path></g></svg>
+                                            <span>Gift Cards</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <!-- ::after -->
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Become a seller</a>
+                        </li>
+                        <li>
+                            <a class="rotation" href="#">
+                                <span>More</span>
+                                <i class="rotate-180 fa-solid fa-chevron-down"></i>
+                            </a>
+                            <div class="dropdown more">
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            <i class="fa-solid fa-bell"></i>
+                                            <span>Notification Preferences</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="" viewBox="0 0 14 17"><g fill="none" fill-rule="evenodd"><path fill="#2874F0" fill-rule="nonzero" d="M12.25.542H1.75c-.833 0-1.5.675-1.5 1.5v10.5c0 .825.667 1.5 1.5 1.5h3L7 16.292l2.25-2.25h3c.825 0 1.5-.675 1.5-1.5v-10.5c0-.825-.675-1.5-1.5-1.5zm-4.5 12h-1.5v-1.5h1.5v1.5zM9.303 6.73l-.676.69c-.54.547-.877.997-.877 2.122h-1.5v-.375c0-.825.338-1.575.877-2.123l.93-.945c.278-.27.443-.646.443-1.058 0-.825-.675-1.5-1.5-1.5s-1.5.675-1.5 1.5H4c0-1.658 1.342-3 3-3s3 1.342 3 3c0 .66-.27 1.26-.697 1.687z"></path></g></svg>
+                                            <span>24x7 Customer Care</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fa-solid fa-arrow-trend-up"></i>
+                                            <span>Advertise</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" class="" viewBox="0 0 12 14"><g fill="none" fill-rule="evenodd"><path d="M-4-3h20v20H-4z"></path><path fill="#2874F0" fill-rule="nonzero" d="M12 4.94H8.57V0H3.43v4.94H0l6 5.766 6-5.765zM0 12.354V14h12v-1.647H0z"></path></g></svg>
+                                            <span>Download App</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#"> <i class="fa-solid fa-shopping-cart"></i> Cart</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- header ends -->
+    <!--  list-items -->
+    <div class="list-items">
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/f15c02bfeb02d15d.png?q=100" alt="">
+                    <span>Top Offers</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100" alt="">
+                    <span>Groceries</span>
+                </a>
+            </li>    
+            <li>
+                <a href="#">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100" alt="">
+                    <span>Mobiles</span>
+                </a>
+            </li>
+            <li>
+                <a class="rotation" href="#">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/c12afc017e6f24cb.png?q=100" alt="">
+                    <span>Fashion <i class="rotate-180 fa-solid fa-chevron-down"></i></span>
+                </a>
+            </li>
+            <li>
+                <a class="rotation" href="#">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100" alt="">
+                    <span>Electronics <i class="rotate-180 fa-solid fa-chevron-down"></i> </span>
+                </a>
+            </li>
+            <li>
+                <a class="rotation" href="#">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100" alt="">
+                    <span>Home <i class="rotate-180 fa-solid fa-chevron-down"></i> </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100" alt="">
+                    <span>Appliances</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100" alt="">
+                    <span>Travel</span>
+                </a>
+            </li>
+            <li>
+                <a class="rotation" href="#">
+                    <img src="https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100" alt="">
+                    <span>Beauty & Toys <i class="rotate-180 fa-solid fa-chevron-down"></i> </span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/b09ce42c5162abe2.png?q=100" alt="">
+                    <span>Electrics</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- banner -->
+    <div id="banner">
+        <div class="chevron-left">
+            <i class="fa-solid fa-chevron-left"></i>
+        </div>
+        <div id="slides">
+            <img src="https://rukminim1.flixcart.com/flap/1688/280/image/ff938f15fd1feb73.jpg?q=50" alt="">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/747397d6a05f8157.jpg?q=50" alt="">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/6f8e66aaf14357f4.jpg?q=50" alt="">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/e30d7e779884c5d6.jpg?q=50" alt="">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/cf5267a79fc35f76.jpg?q=50" alt="">
+            <img src="https://rukminim1.flixcart.com/flap/1688/280/image/ff938f15fd1feb73.jpg?q=50" alt="">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/747397d6a05f8157.jpg?q=50" alt="">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/6f8e66aaf14357f4.jpg?q=50" alt="">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/3376/560/image/e30d7e779884c5d6.jpg?q=50" alt="">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/1688/280/image/cf5267a79fc35f76.jpg?q=50" alt="">
+        </div>
+        <div class="chevron-right">
+            <i class="fa-solid fa-chevron-right"></i>
+        </div>
+    </div>
+
+    <!-- products -->
+    <div class="section_1">
+        <div class="container">
+            <h2>Best of Electronics</h2>
+            <h4>Best of Electronics</h4>
+            <!-- <hr> -->
+            <!-- <div class="chevron-box"> -->
+            <div class="slidex">
+                <div class="chevron-left">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <!-- </div> -->
+                <div class="products">
+                    <div class="product">
+                        <div class="wishlist">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <a href="#">
+                            <div class="p-img">
+                            <img src="https://rukminim1.flixcart.com/image/416/416/kp1imq80/computer/u/b/z/na-gaming-laptop-acer-original-imag3d63hk3h8nm2.jpeg?q=70" alt="Acer Aspire 7 core i5 10th Gen">
+                            </div>
+                            <div class="p-desc">
+                                <h4>Best Gaming Laptops</h4>
+                                <span>From 80,000</span>
+                                <br>
+                                <p>High Performance Laptops</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <div class="wishlist">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <a href="#">
+                            <div class="p-img">
+                            <img src="https://rukminim1.flixcart.com/image/312/312/kql8sy80/monitor/8/j/f/l24i-30-23-8-66bdkac2in-lenovo-original-imag4kkrzfhhzq8p.jpeg?q=70" alt="Acer Aspire 7 core i5 10th Gen">
+                            </div>
+                            <div class="p-desc">
+                                <h4>Acer Monitors</h4>
+                                <span>min 26% off</span>
+                                <br>
+                                <p>240Hz UHD Monitors</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <div class="wishlist">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <a href="#">
+                            <div class="p-img">
+                            <img src="https://rukminim1.flixcart.com/image/150/150/l2f20sw0/power-bank/t/c/i/-original-imagdrmdqxnbzfpp.jpeg?q=70" alt="Acer Aspire 7 core i5 10th Gen">
+                            </div>
+                            <div class="p-desc">
+                                <h4>Premium Powerbanks</h4>
+                                <span>12% off or more</span>
+                                <br>
+                                <p>Mi, Realme and more</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <div class="wishlist">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <a href="#">
+                            <div class="p-img">
+                            <img src="https://rukminim1.flixcart.com/image/150/150/printer/j/j/y/hp-laserjet-m1005-multifunction-original-imadxhzpeb9qbrfg.jpeg?q=70" alt="Acer Aspire 7 core i5 10th Gen">
+                            </div>
+                            <div class="p-desc">
+                                <h4>Printers</h4>
+                                <span>From 3999</span>
+                                <br>
+                                <p>HP</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <div class="wishlist">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <a href="#">
+                            <div class="p-img">
+                            <img src="https://rukminim1.flixcart.com/image/612/612/kwtkxow0/graphics-card/v/q/a/rtx-3060-twin-edge-oc-zotac-original-imag9ez5dw7ggvju.jpeg?q=70" alt="">
+                            </div>
+                            <div class="p-desc">
+                                <h4>Grahpics Card</h4>
+                                <span>46% off</span>
+                                <br>
+                                <p>Nvidia</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <div class="wishlist">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <a href="#">
+                            <div class="p-img">
+                                <img src="https://rukminim1.flixcart.com/image/150/150/kura1e80/monitor/l/t/l/gw2280-full-hd-22-gw2280-benq-original-imag7t9tqskqfeen.jpeg?q=70" alt="">
+                            </div>
+                            <div class="p-desc">
+                                <h4>BenQ Monitors</h4>
+                                <span>From 9990</span>
+                                <br>
+                                <p>Top Rated</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- <div class="chevron-box"> -->
+                    <div class="chevron-right">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                <!-- </div> -->
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="section_2">
+        <div class="container">
+            <h2>Beauty, Food, Toys & more</h2>
+            <h4>Beauty, Food, Toys & more</h4>
+            <!-- <hr> -->
+            <!-- <div class="chevron-box"> -->
+            <div class="slidex">
+                <div class="chevron-left">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </div>
+                <!-- </div> -->
+                <div class="products">
+                    <div class="product">
+                        <div class="wishlist">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <a href="#">
+                            <div id="large-image" class="p-img">
+                            <img src="https://rukminim1.flixcart.com/image/150/150/krtjgcw0/headphone/d/9/g/au-mh501-maono-original-imag5j35rffkwpac.jpeg?q=70" alt="Acer Aspire 7 core i5 10th Gen">
+                            </div>
+                            <div class="p-desc">
+                                <h4>Studio Headphones</h4>
+                                <span>14% off or more</span>
+                                <br>
+                                <p>From JBL, Beats</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <div class="wishlist">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <a href="#">
+                            <div id="large-image" class="p-img">
+                            <img src="https://rukminim1.flixcart.com/image/150/150/kjuby4w0/deodorant/v/c/d/400-one8-intense-fresh-deo-pack-of-2-200ml-x-2-2-perfume-body-original-imafzbn4nv2zhccp.jpeg?q=70" alt="Acer Aspire 7 core i5 10th Gen">
+                            </div>
+                            <div class="p-desc">
+                                <h4>Deodrants and Perfumes</h4>
+                                <span>Upto 60% Off</span>
+                                <br>
+                                <p>Denver, Fogg & More</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <div class="wishlist">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <a href="#">
+                            <div class="p-img">
+                            <img src="https://rukminim1.flixcart.com/image/150/150/jlph9jk0/cycle/h/f/k/skyper-26t-sskp26bk0001-16-hero-original-imaf8ru5xysfgtmx.jpeg?q=70" alt="Acer Aspire 7 core i5 10th Gen">
+                            </div>
+                            <div class="p-desc">
+                                <h4>Premium Non-gear Cycles</h4>
+                                <span>Upto 40% Off</span>
+                                <br>
+                                <p>Hercules, Hero & More</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <div class="wishlist">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                            <div class="p-img">
+                            <img src="https://rukminim1.flixcart.com/image/150/150/kzegk280/action-figure/9/v/t/3-30155-mcfarlane-2-5-original-imagbeyyzehpyk2m.jpeg?q=70" alt="Acer Aspire 7 core i5 10th Gen">
+                            </div>
+                            <div class="p-desc">
+                                <h4>SuperHero Toys</h4>
+                                <span>Upto 70% Off</span>
+                                <br>
+                                <p>Figurines & Battle Toys</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div id="large-image-2" class="product">
+                        <div class="wishlist">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <a href="#">
+                            <div class="p-img">
+                            <img src="https://rukminim1.flixcart.com/image/150/150/kzzw5u80/coffee/s/b/x/-original-imagbwf3wvhzfh5z.jpeg?q=70" alt="">
+                            </div>
+                            <div class="p-desc">
+                                <h4>Coffee Powder</h4>
+                                <span>Upto 80% off</span>
+                                <br>
+                                <p>Nescafe & Continental</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="product">
+                        <div class="wishlist">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <a href="#">
+                            <div id="large-image" class="p-img">
+                                <img src="https://rukminim1.flixcart.com/image/150/150/ktszgy80/microphone/a/o/e/3-5mm-clip-microphone-for-youtube-collar-mike-for-voice-original-imag72qud79w8eb8.jpeg?q=70" alt="">
+                            </div>
+                            <div class="p-desc">
+                                <h4>Microphones</h4>
+                                <span>Up to 70% off</span>
+                                <br>
+                                <p>Explore Now!</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- <div class="chevron-box"> -->
+                    <div class="chevron-right">
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                <!-- </div> -->
+            </div>
+
+            <!-- Saved product item for later -->
+            <!-- <div class="product">
+                <a href="#">
+                    <div class="p-img">
+                    <img src="" alt="">
+                    </div>
+                    <div class="p-desc">
+                        <h4></h4>
+                        <span></span>
+                        <br>
+                        <p></p>
+                    </div>
+                </a>
+            </div> -->
+        </div>
+    </div>
+
+    <!-- chat box -->
+    <div class="chat-box">
+        <span>Chat with us</span>
+    </div>
+
+    <!-- about section -->
+    <div class="footer">
+        <div class="about-social-mails-address">
+            <div class="about-socials">
+                <div class="about">
+                    <span>ABOUT</span>
+                    <ul id="href-content">
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Flipkart Stories</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">Flipkart Wholesale</a></li>
+                        <li><a href="#">Corporate Information</a></li>
+                    </ul>
+                </div>
+    
+                <div class="help">
+                    <span>HELP</span>
+                    <ul id="href-content">
+                        <li><a href="#">Payments</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Cancellation & Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Report Infringement</a></li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <span>SOCIAL</span>
+                    <ul id="href-content">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">YouTube</a></li>
+                    </ul>
+                </div>
+                <div class="policy">
+                    <span>POLICY</span>
+                    <ul id="href-content">
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="#">EPR Compliance</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mails-address">
+                <div class="mail">
+                    <span>Mail Us:</span>
+                    <ul id="content">
+                        <li>Flipkart Internet Private Limited,</li>
+                        <li>Buildings Alyssa, Begonia &</li>
+                        <li>Clove Embassy Tech Village,</li>
+                        <li>Outer Ring Road, Devarabeesanahalli Village,</li>
+                        <li>Bengaluru, 560103,</li>
+                        <li>Karnataka, India</li>
+                    </ul>
+                </div>
+                <div class="address">
+                    <span>Registered Office Address:</span>
+                    <ul id="content">
+                        <li>Flipkart Internet Private Limited,</li>
+                        <li>Buildings Alyssa, Begonia &</li>
+                        <li>Clove Embassy Tech Village,</li>
+                        <li>Outer Ring Road, Devarabeesanahalli Village,</li>
+                        <li>Bengaluru, 560103,</li>
+                        <li>Karnataka, India</li>
+                        <li>CIN : U51109KA2012PTC066107</li>
+                        <li>Telephone: <a id="phone" href="">044-45614700</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="adverts">
+        <div class="links">
+            <div>
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE2IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTJoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTUuOTMgNS42MTRoLTIuOTQ4VjQuMTRjMC0uODE4LS42NTUtMS40NzMtMS40NzMtMS40NzNIOC41NmMtLjgxNyAwLTEuNDczLjY1NS0xLjQ3MyAxLjQ3M3YxLjQ3NEg0LjE0Yy0uODE4IDAtMS40NjYuNjU2LTEuNDY2IDEuNDc0bC0uMDA3IDguMTA1YzAgLjgxOC42NTUgMS40NzQgMS40NzMgMS40NzRoMTEuNzljLjgxOCAwIDEuNDc0LS42NTYgMS40NzQtMS40NzRWNy4wODhjMC0uODE4LS42NTYtMS40NzQtMS40NzQtMS40NzR6bS00LjQyMSAwSDguNTZWNC4xNGgyLjk0OHYxLjQ3NHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yIC0yKSIvPgogICAgPC9nPgo8L3N2Zz4K">
+                <a href="">Become a Seller</a>
+            </div>
+            <div>
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDE4IDE3Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0xLTFoMjB2MjBILTF6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTYuNjY3IDVIMTQuODVjLjA5Mi0uMjU4LjE1LS41NDIuMTUtLjgzM2EyLjQ5NyAyLjQ5NyAwIDAgMC00LjU4My0xLjM3NUwxMCAzLjM1bC0uNDE3LS41NjdBMi41MSAyLjUxIDAgMCAwIDcuNSAxLjY2N2EyLjQ5NyAyLjQ5NyAwIDAgMC0yLjUgMi41YzAgLjI5MS4wNTguNTc1LjE1LjgzM0gzLjMzM2MtLjkyNSAwLTEuNjU4Ljc0Mi0xLjY1OCAxLjY2N2wtLjAwOCA5LjE2NkExLjY2IDEuNjYgMCAwIDAgMy4zMzMgMTcuNWgxMy4zMzRhMS42NiAxLjY2IDAgMCAwIDEuNjY2LTEuNjY3VjYuNjY3QTEuNjYgMS42NiAwIDAgMCAxNi42NjcgNXptMCA2LjY2N0gzLjMzM3YtNWg0LjIzNEw1LjgzMyA5LjAyNWwxLjM1Ljk3NSAxLjk4NC0yLjdMMTAgNi4xNjdsLjgzMyAxLjEzMyAxLjk4NCAyLjcgMS4zNS0uOTc1LTEuNzM0LTIuMzU4aDQuMjM0djV6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMSkiLz4KICAgIDwvZz4KPC9zdmc+Cg==">
+                <a href="">Advertise</a>
+            </div>
+            <div>
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxNyIgdmlld0JveD0iMCAwIDE4IDE3Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0xLTFoMjB2MjBILTF6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNMTYuNjY3IDVIMTQuODVjLjA5Mi0uMjU4LjE1LS41NDIuMTUtLjgzM2EyLjQ5NyAyLjQ5NyAwIDAgMC00LjU4My0xLjM3NUwxMCAzLjM1bC0uNDE3LS41NjdBMi41MSAyLjUxIDAgMCAwIDcuNSAxLjY2N2EyLjQ5NyAyLjQ5NyAwIDAgMC0yLjUgMi41YzAgLjI5MS4wNTguNTc1LjE1LjgzM0gzLjMzM2MtLjkyNSAwLTEuNjU4Ljc0Mi0xLjY1OCAxLjY2N2wtLjAwOCA5LjE2NkExLjY2IDEuNjYgMCAwIDAgMy4zMzMgMTcuNWgxMy4zMzRhMS42NiAxLjY2IDAgMCAwIDEuNjY2LTEuNjY3VjYuNjY3QTEuNjYgMS42NiAwIDAgMCAxNi42NjcgNXptMCA2LjY2N0gzLjMzM3YtNWg0LjIzNEw1LjgzMyA5LjAyNWwxLjM1Ljk3NSAxLjk4NC0yLjdMMTAgNi4xNjdsLjgzMyAxLjEzMyAxLjk4NCAyLjcgMS4zNS0uOTc1LTEuNzM0LTIuMzU4aDQuMjM0djV6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMSAtMSkiLz4KICAgIDwvZz4KPC9zdmc+Cg==">
+                <a href="">Gift Cards</a>
+            </div>
+            <div>
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDE1IDE1Ij4KICAgIDxkZWZzPgogICAgICAgIDxsaW5lYXJHcmFkaWVudCBpZD0iYSIgeDE9IjAlIiB4Mj0iODYuODc2JSIgeTE9IjAlIiB5Mj0iODAuMjAyJSI+CiAgICAgICAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiNGRkQ4MDAiLz4KICAgICAgICAgICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjRkZBRjAwIi8+CiAgICAgICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDwvZGVmcz4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTS0yLTNoMjB2MjBILTJ6Ii8+CiAgICAgICAgPHBhdGggZmlsbD0idXJsKCNhKSIgZmlsbC1ydWxlPSJub256ZXJvIiBkPSJNOS41IDNDNS4zNiAzIDIgNi4zNiAyIDEwLjUgMiAxNC42NCA1LjM2IDE4IDkuNSAxOGM0LjE0IDAgNy41LTMuMzYgNy41LTcuNUMxNyA2LjM2IDEzLjY0IDMgOS41IDN6bS43NSAxMi43NWgtMS41di0xLjVoMS41djEuNXptMS41NTMtNS44MTNsLS42NzYuNjljLS41NC41NDgtLjg3Ny45OTgtLjg3NyAyLjEyM2gtMS41di0uMzc1YzAtLjgyNS4zMzgtMS41NzUuODc3LTIuMTIzbC45My0uOTQ1Yy4yNzgtLjI3LjQ0My0uNjQ1LjQ0My0xLjA1NyAwLS44MjUtLjY3NS0xLjUtMS41LTEuNVM4IDcuNDI1IDggOC4yNUg2LjVhMyAzIDAgMSAxIDYgMGMwIC42Ni0uMjcgMS4yNi0uNjk3IDEuNjg4eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIgLTMpIi8+CiAgICA8L2c+Cjwvc3ZnPgo=">
+                <a href="">Help Center</a>
+            </div>
+            <div>
+                <span class="copyright">&#169; Ashutosh Singh Rawat</span>
+            </div>
+        </div>
+        <div id="cards">
+            <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/payment-method_69e7ec.svg" alt="">
+        </div>
+        <div id="about-me">
+            <span>
+                This clone of flipkart is created by Ashutosh Singh Rawat
+            </span>
+            <div id="contact-details" >
+                    <div class="contact-elements">
+                        <span id="normal">Email:</span> <span id="cursive">ashutoshrawat325@gmail.com</span>
+                    </div>
+                    <div class="contact-elements">
+                        <span id="normal">Github: </span> <a href="https://github.com/Ashutosh-Rawat" target="_blank">Ashutosh-Rawat</a>
+                    </div>
+                    <div class="contact-elements">
+                    <span id="normal">LinkedIn</span> <a href="https://www.linkedin.com/in/aashu-rawat/" target="_blank">Ashutosh Singh Rawat</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
