@@ -247,6 +247,9 @@ svg {
     margin-bottom: 10px;
     background-color: #fff;
 }
+.head-line>.row {
+    height: 56px;
+}
 .head-line>.row::after {
     content: "";
     display: block;
