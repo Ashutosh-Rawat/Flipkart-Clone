@@ -118,8 +118,8 @@ img {
 
 .col-2 > ul > li {
     display: inline-block;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
     margin: 0px 10px;
     /* width: 19%;   */
     text-align: center;
@@ -151,7 +151,7 @@ img {
     left: -50%;
     top: 57px;
     display: none;
-    box-shadow: #919191 0px 0px 10px;
+    box-shadow: #414141 0px 0px 10px;
 }
 svg {
     margin-right: 5px;

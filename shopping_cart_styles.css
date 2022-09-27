@@ -214,7 +214,9 @@ svg {
     clear: both;
     display: block;
 }
-
+.col2-row .dropdown ul li:last-child a {
+    text-align: left;
+}
 
 /* cart box starts here */
 .cart-box {
@@ -225,7 +227,7 @@ svg {
 .cart-box a {
     text-decoration: none;
     /* color: #2874F0; */
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 500;
     color: #000;
     display: block;
@@ -246,6 +248,7 @@ svg {
 .head-line {
     margin-bottom: 10px;
     background-color: #fff;
+    overflow: hidden;
 }
 .head-line>.row {
     height: 56px;
@@ -258,5 +261,90 @@ svg {
 .content-col-1, .content-col-2 {
     width: 45%;
     padding: 16px 30px;
+    padding-bottom: 0px;
+}
+.head-line>.row>.content-col-1 a {
+    width: 55%;
+    display: inline-block;
+    border-bottom: 3px solid #2874F0;
+    height: 37px;
+    color: #2874F0;
 }
 
+/* image and cart items styling */
+.cart-items {
+    background-color: #fff;
+    padding: 32px 30px;
+    padding-bottom: 0px;
+    height: 350px;
+}
+.cart-items-row {
+    width: 22%;
+    margin: 0 auto;
+    text-align: center;
+}
+.cart-items-row img, h3{
+    width: 84%;
+    margin: 8px 0px;
+}
+.cart-items-row h3 {
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.cart-items-row>span {
+    display: block;
+    font-size: 12px;
+    font-weight: 200;
+    color: #212121;
+    line-height: 1.4;
+}
+.cart-login-button {
+    display: block;
+    padding: 12px 20px;
+    background-color: #fb641b;
+    width: 54%;
+    margin: 18px auto;
+    margin-left: 36px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* policy - footer styling */
+.footer {
+    font-size: 13px;
+    font-weight: 300;
+    color: #565656;
+    border-top: 1px solid #ddd;
+    padding: 32px 8%;
+    margin-top: 32px;
+}
+.policies a {
+    color: #565656;
+    text-decoration: none;
+    display: inline-block;
+    border-right: 1px solid #565656;
+    padding: 2px 5px;
+}
+.policies a:last-child {
+    border: none;
+}
+.policies::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.flipkart-copyright {
+    margin-left: 17px;
+    margin-top: 2px;
+}
+.flipkart-help a {
+    color: #2874F0;
+    font-weight: 500;
+    border:none;
+    padding:0;
+}
